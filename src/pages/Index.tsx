@@ -97,7 +97,7 @@ const Index = () => {
               </div>
               
               <h1 className="text-4xl md:text-5xl lg:text-5xl font-bold text-foreground leading-[1.1] mb-6">
-                Accelerate Insurance workflows with{" "}
+                Accelerating Insurance through {" "}
                 <span className="text-gradient">Intelligent Technology</span>
               </h1>
               

@@ -18,7 +18,7 @@ const Header = () => {
   const location = useLocation();
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/98 backdrop-blur-sm border-b border-border">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-gray-200 -sm border-b border-border">
       <div className="container mx-auto px-6 lg:px-12">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
@@ -41,10 +41,10 @@ const Header = () => {
               <Link
                 key={link.href}
                 to={link.href}
-                className={`px-4 py-2 text-sm font-medium transition-colors rounded-md ${
+                className={`px-4 py-2 text-md font-medium transition-colors rounded-md ${
                   location.pathname === link.href
                     ? "text-primary bg-primary/5"
-                    : "text-muted-foreground hover:text-foreground hover:bg-muted"
+                    : "text-gray-600 hover:text-foreground hover:bg-muted hover:scale-105 transition-all duration-200"
                 }`}
               >
                 {link.label}
@@ -53,7 +53,7 @@ const Header = () => {
           </nav>
 
           {/* CTA Buttons */}
-          <div className="hidden lg:flex items-center gap-3">
+          <div className="hidden lg:flex items-center gap-3 hover:scale-105 transition-all duration-200 ">
 
             <Button variant="default" size="default" asChild>
               <Link to="/contact">Get in Touch</Link>
