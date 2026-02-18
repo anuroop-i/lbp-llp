@@ -90,7 +90,7 @@ const Footer = () => {//
           </div>
 
           {/* Contact */}
-          <div>
+          <div className="">
             <h4 className="font-semibold text-sm uppercase tracking-wider mb-6">Contact</h4>
             <ul className="space-y-4">
               <li className="flex items-start gap-3">

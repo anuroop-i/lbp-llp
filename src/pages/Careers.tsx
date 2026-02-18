@@ -95,7 +95,7 @@ const Careers = () => {
               <p className="text-accent font-semibold text-sm uppercase tracking-wider mb-3">Our Culture</p>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">A Place Where You Can Thrive</h2>
               <p className="text-muted-foreground leading-relaxed mb-4">
-                At LeftBrainPath, we cultivate a culture of continuous growth and collaboration, empowering you to deliver your best work with flexibility and purpose.
+                At LeftBrain Path, we cultivate a culture of continuous growth and collaboration, empowering you to deliver your best work with flexibility and purpose.
               </p>
               <p className="text-muted-foreground leading-relaxed">
                 We celebrate diversity and inclusion, knowing different perspectives make us stronger as a team.

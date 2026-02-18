@@ -24,11 +24,11 @@ const solutions = [
     subtitle: "End-to-End Insurance Software Implementation",
     description: "Certified experts implement, customize, and optimize Insurance Applications for P&C carriers.",
     features: [
-      "PolicyCenter, BillingCenter & ClaimCenter implementation",
-      "Guidewire Cloud migration and optimization",
-      "Custom integrations and extensions",
-      "Upgrade and version migration support",
-      "Performance tuning and optimization"
+      "Guidewire InsuranceSuite Platform Implementation",
+      "Guidewire Cloud Migration, Optimization, and Extensions",
+      "Jutro Digital Experience and UI/UX Modernization",
+      "Upgrade and Version Migration Support",
+      "Performance Tuning and Maintenance"
     ]
   },
     {
@@ -66,11 +66,11 @@ const solutions = [
     subtitle: "Intuitive and User-Centered Digital Experiences",
     description: "Design modern, accessible, and conversion-focused interfaces that enhance usability, streamline workflows, and elevate customer and agent experiences.",
     features: [
-      "User research and persona development",
-      "Information architecture and journey mapping",
       "Wireframing and interactive prototyping",
+      "Design system creation and usability testing",
       "Responsive and accessible UI design",
-      "Design system creation and usability testing"
+      "Scalable components support rapid development",
+      "Intuitive navigation for seamless user journeys",      
     ]
   },
   {
@@ -140,7 +140,7 @@ const Solutions = () => {
       {/* Hero */}
       <section className="py-20 bg-secondary border-b border-border">
         <div className="container mx-auto px-6 lg:px-12">
-          <div className="max-w-3xl">
+          <div className="max-w-xl">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
@@ -148,7 +148,7 @@ const Solutions = () => {
             >
               <p className="text-accent font-semibold text-sm uppercase tracking-wider mb-3">Our Solutions</p>
               <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-                Technology for the Modern Insurer
+                Intelligent Technology for the Modern Insurer
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
                 From Guidewire implementation to cloud transformation, we provide end-to-end technology solutions designed for the property and casualty insurance industry.

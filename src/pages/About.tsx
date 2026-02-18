@@ -74,7 +74,7 @@ const About = () => {
                 Transforming Insurance Through Technology
               </h1>
               <p className="text-lg text-muted-foreground leading-relaxed">
-               Founded to drive innovation in the insurance sector, LeftBrainPath has evolved into a leading technology consulting firm, with our experts supporting carriers across the P&C industry..
+               Founded to drive innovation in the insurance sector, LeftBrain Path has evolved into a leading technology consulting firm, with our experts supporting carriers across the P&C industry..
               </p>
             </motion.div>
 

@@ -9,7 +9,25 @@ import { Mail, Phone, MapPin, Send, Clock, MessageSquare } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const contactInfo = [
-  { icon: MapPin, title: "Office", details: [<span>3<sup>rd</sup> & 4<sup>th</sup> floors, Plot #13, Shilpi Layout, Vittal Rao Nagar, Image Hospital Road, Gafoornagar, Madhapur, Hyderabad, Telangana, 500081</span>] },
+  { icon: MapPin, title: "Office", details: [<span className="flex flex-col">
+  <span className="">
+  3<sup>rd</sup> & 4<sup>th</sup> floors, Plot #13, 
+  </span>
+  <span className="">
+  Shilpi Layout, Vittal Rao
+  </span>
+   <span className="">
+   Nagar, Image Hospital 
+  </span>
+  <span className="">
+  Road, Gafoornagar,
+  </span>
+   <span className="">
+  Madhapur, Hyderabad,
+  </span>
+  <span className="">
+    Telangana, 500081</span>
+  </span>] },
   { icon: Phone, title: "Phone", details: ["040 – 45130116"] },
   { icon: Mail, title: "Email", details: ["solutions@leftbrainpath.com"] },
 
@@ -74,7 +92,7 @@ const Contact = () => {
               </div>
 
               {contactInfo.map((item, index) => (
-                <div key={index} className="flex gap-4">
+                <div key={index} className="flex gap-4 ">
                   <div className="w-10 h-10 rounded bg-primary/10 flex items-center justify-center text-primary flex-shrink-0">
                     <item.icon size={18} />
                   </div>
@@ -145,3 +163,6 @@ const Contact = () => {
 };
 
 export default Contact;
+
+
+
